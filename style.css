@@ -124,3 +124,38 @@ header nav {
     height: 240px;
     object-fit: cover;
 }
+
+/* info */
+.info {
+    text-align: center;
+}
+
+.info .container {
+    padding: 30px 10px 120px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.info .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.info .flex > div {
+    width: 160px;
+}
+
+.info img {
+    margin-bottom: 6px;
+    max-width: 160px;
+    height: 160px;
+    border: 4px solid var(--button-bg-color);
+    border-radius: 16px;
+}
