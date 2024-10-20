@@ -189,3 +189,43 @@ header nav {
     font-weight: 700;
     text-align: right;
 }
+
+/* action */
+.wrapper {
+    padding: 0 10px;
+}
+.action .container {
+    margin: 100px auto;
+    padding: 50px 10px;
+    background-color: var(--button-bg-color);
+    color: #fff;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.action p {
+    margin: 0px 0;
+}
+.action p > strong {
+    font-size: 24px ;
+    font-weight: 700;
+}
+
+.action p + p {
+    color: #e5e7eb;
+}
+
+.action button {
+    font-size: 1rem;
+    font-weight: bold;
+
+    padding: 10px 36px;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #fff;
+}
