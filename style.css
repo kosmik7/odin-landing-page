@@ -229,3 +229,16 @@ header nav {
     background-color: transparent;
     color: #fff;
 }
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-bg-color);
+    color: #fff;
+}
+
+footer span {
+    margin: 40px 10px
+}
